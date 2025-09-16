@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+@layer components {
+  .bg-primary-color {
+    @apply bg-gradient-to-r from-blue-950/90 via-gray-900/100 to-blue-950/100 relative;
+  }
+}
